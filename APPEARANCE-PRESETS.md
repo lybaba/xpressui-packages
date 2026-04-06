@@ -9,7 +9,7 @@ These presets demonstrate the absolute flexibility of the form without writing a
 *Ideal for tech agencies, crypto startups, or developer tools.*
 
 - **Background Style:** Panel Focus
-- **Background Image URL:** *(Leave empty or use a dark abstract image: https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2564&auto=format&fit=crop)*
+- **Background Image URL:** *(Leave empty or use a dark abstract image:)*
 - **Typography (Font):** `"Inter", system-ui, sans-serif`
 - **Primary color:** `#6366f1` *(Vibrant Indigo)*
 - **Surface color:** `#1e293b` *(Slate 800 - card background)*
@@ -26,7 +26,7 @@ These presets demonstrate the absolute flexibility of the form without writing a
 *Ideal for lawyers, financial consultants, or premium services. A very crisp look, with sharp edges and a Serif font.*
 
 - **Background Style:** None (Clean)
-- **Background Image URL:** *(Leave empty or https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop)*
+- **Background Image URL:** *(Leave empty or put your own image)*
 - **Typography (Font):** `"Playfair Display", "Merriweather", serif`
 - **Primary color:** `#b45309` *(Dark Amber / Gold)*
 - **Surface color:** `#ffffff` *(Pure White)*
@@ -43,7 +43,7 @@ These presets demonstrate the absolute flexibility of the form without writing a
 *Ideal for creative agencies, marketing, or event planning.*
 
 - **Background Style:** Full Bleed
-- **Background Image URL:** *(A very colorful or geometric pattern image: https://images.unsplash.com/photo-1557672172-298e090bd0f1?q=80&w=2400&auto=format&fit=crop)*
+- **Background Image URL:** *(A very colorful or geometric pattern image)*
 - **Typography (Font):** `"Space Grotesk", "Comic Sans MS", sans-serif`
 - **Primary color:** `#f43f5e` *(Bright Pink / Red)*
 - **Surface color:** `#ffffff` 
@@ -60,7 +60,7 @@ These presets demonstrate the absolute flexibility of the form without writing a
 *Ideal for clinics, psychologists, or eco-friendly products. Very rounded and soft shapes.*
 
 - **Background Style:** Panel Focus
-- **Background Image URL:** *(Nature image or soft texture: https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?q=80&w=2400&auto=format&fit=crop)*
+- **Background Image URL:** *(Nature image or soft texture)*
 - **Typography (Font):** `"Nunito", "Quicksand", sans-serif`
 - **Primary color:** `#059669` *(Soft Emerald)*
 - **Surface color:** `#ffffff`
