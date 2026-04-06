@@ -15,7 +15,7 @@ Here is how to install the plugins and test the workflow.
 The core plugin provides the engine: the shortcode renderer, the isolated CSS scoping, and the wp-admin submission inbox.
 
 1. Go to the [Releases page](../../releases/latest) of this repository.
-2. Download `xpressui-bridge-1.0.39.zip`.
+2. Download `xpressui-wordpress-bridge.zip`.
 3. In your WordPress admin, go to **Plugins > Add New > Upload Plugin**.
 4. Upload the `.zip` file and click **Activate**.
 
@@ -25,23 +25,26 @@ The core plugin provides the engine: the shortcode renderer, the isolated CSS sc
 
 The Pro version unlocks the **Appearance & Design Tokens** panel, allowing you to natively tweak primary colors, fonts, and border radii without writing any CSS.
 
-1. Go to the Releases page and download `xpressui-wordpress-bridge-pro-1.0.30.zip`.
+1. Go to the Releases page and download `xpressui-wordpress-bridge-pro.zip`.
 2. Upload and activate it exactly like the core plugin.
 3. Go to **XPressUI > Settings** in your WordPress admin.
 4. Enter the **Lifetime Agency License Key** you received in your private message.
 
 ---
 
-## 🚀 3. Import and Test a Workflow
+## 🚀 3. Test the Bundled Workflows
 
-To see the decoupling in action:
+You don't even need to upload a workflow to start testing! The plugins come with built-in examples so you can see the decoupling in action immediately:
 
+- **`document-intake`**: A multi-step client onboarding flow (bundled with the Free core plugin).
+- **`validation-playground`**: A comprehensive test of all advanced Pro fields (bundled with the Pro plugin).
+
+To test them:
 1. Go to **XPressUI > Workflows** in your WordPress admin.
-2. Click **Upload Package** and upload a `.zip` workflow exported from the XPressUI Console (or use the sample package provided in the releases).
-3. Copy the generated shortcode (e.g., `[xpressui id="document-intake"]`) and paste it into any page or post.
-4. Check the page on the frontend: notice how it ignores your theme's global CSS resets.
-5. Go back to wp-admin, click the **Customize (PRO)** button on your workflow.
-6. Open the **Appearance & Design Tokens** tab, change the Primary Color and the Font Family, save, and refresh your frontend!
+2. Copy the generated shortcode for a bundled workflow (e.g., `[xpressui id="document-intake"]`) and paste it into any page or post.
+3. Check the page on the frontend: notice how it completely ignores your theme's global CSS resets.
+4. Go back to wp-admin, click the **Customize (PRO)** button on your workflow.
+5. Open the **Appearance & Design Tokens** tab, change the Primary Color and the Font Family, save, and refresh your frontend!
 
 ---
 
@@ -54,3 +57,10 @@ If you find a bug, a CSS bleed from a specific theme, or a confusing UI flow:
 - Or reply directly to the DM where you received your license key.
 
 Thank you for helping us make WordPress forms theme-proof!
+
+---
+
+## 🌐 Learn More & Contact
+
+- **XPressUI Pro:** Discover all features, pricing, and get your own license on our [Commercial Page](https://xpressui.iakpress.com/).
+- **IAKPress Portal:** For custom agency integrations, advanced support, or general inquiries, visit [iakpress.com](https://iakpress.com/).
