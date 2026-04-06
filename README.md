@@ -15,7 +15,7 @@ Here is how to install the plugins and test the workflow.
 The core plugin provides the engine: the shortcode renderer, the isolated CSS scoping, and the wp-admin submission inbox.
 
 1. Go to the [Releases page](../../releases/latest) of this repository.
-2. Download `xpressui-wordpress-bridge.zip`.
+2. Download `xpressui-bridge-1.0.39.zip`.
 3. In your WordPress admin, go to **Plugins > Add New > Upload Plugin**.
 4. Upload the `.zip` file and click **Activate**.
 
@@ -25,7 +25,7 @@ The core plugin provides the engine: the shortcode renderer, the isolated CSS sc
 
 The Pro version unlocks the **Appearance & Design Tokens** panel, allowing you to natively tweak primary colors, fonts, and border radii without writing any CSS.
 
-1. Go to the Releases page and download `xpressui-wordpress-bridge-pro.zip`.
+1. Go to the Releases page and download `xpressui-wordpress-bridge-pro-1.0.30.zip`.
 2. Upload and activate it exactly like the core plugin.
 3. Go to **XPressUI > Settings** in your WordPress admin.
 4. Enter the **Lifetime Agency License Key** you received in your private message.
