@@ -1,6 +1,6 @@
-# XPressUI Bridge — Beta Tester Guide 🚀
+# XPressUI WordPress Bridge 🚀
 
-Welcome to the XPressUI private beta! 
+Welcome to the XPressUI WordPress Bridge Guide
 
 If you are here, you know the struggle of dropping a complex, multi-step form (like Gravity Forms or WPForms) into a heavy WordPress theme like Elementor or Divi, only to spend hours fighting CSS specificity wars and global input resets.
 
