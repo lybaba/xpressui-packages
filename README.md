@@ -4,7 +4,16 @@ Welcome to the XPressUI WordPress Bridge Guide
 
 If you are here, you know the struggle of dropping a complex, multi-step form (like Gravity Forms or WPForms) into a heavy WordPress theme like Elementor or Divi, only to spend hours fighting CSS specificity wars and global input resets.
 
-XPressUI is a decoupled form builder. The form ships as a standalone artifact with its own **strictly scoped CSS** (locked to a unique root ID). It renders natively in PHP and is **100% theme-proof**. The theme literally cannot break the layout, but you can still tweak design tokens natively in the wp-admin.
+XPressUI is a decoupled workflow builder and export pipeline. In the current
+commercial setup, the main delivery target is WordPress: the form ships as an
+artifact with its own **strictly scoped CSS** (locked to a unique root ID),
+renders natively in PHP, and is **100% theme-proof**. The theme literally
+cannot break the layout, but you can still tweak design tokens natively in the
+wp-admin.
+
+This WordPress path is the primary delivery channel today, but the longer-term
+direction is for the same builder to also export standalone packages for
+non-WordPress platforms.
 
 Here is how to install the plugins and test the workflow.
 
