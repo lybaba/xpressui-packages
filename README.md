@@ -1,75 +1,105 @@
-# XPressUI WordPress Bridge 🚀
+# XPressUI for WordPress
 
-Welcome to the XPressUI WordPress Bridge Guide
+**Stop fighting CSS conflicts. Ship production-ready client intake forms in minutes.**
 
-If you are here, you know the struggle of dropping a complex, multi-step form (like Gravity Forms or WPForms) into a heavy WordPress theme like Elementor or Divi, only to spend hours fighting CSS specificity wars and global input resets.
-
-XPressUI is a decoupled workflow builder and export pipeline. In the current
-commercial setup, the main delivery target is WordPress: the form ships as an
-artifact with its own **strictly scoped CSS** (locked to a unique root ID),
-renders natively in PHP, and is **100% theme-proof**. The theme literally
-cannot break the layout, but you can still tweak design tokens natively in the
-wp-admin.
-
-This WordPress path is the primary delivery channel today, but the longer-term
-direction is for the same builder to also export standalone packages for
-non-WordPress platforms.
-
-Here is how to install the plugins and test the workflow.
+XPressUI is a decoupled workflow builder and export pipeline for WordPress. Each workflow ships as a standalone package with strictly scoped CSS — locked to a unique root ID — so it renders natively in PHP and remains 100% isolated from your theme. Elementor, Divi, or any other theme literally cannot break the layout.
 
 ---
 
-## 📦 1. Install the Core Plugin (Free)
+## Why XPressUI
 
-The core plugin provides the engine: the shortcode renderer, the isolated CSS scoping, and the wp-admin submission inbox.
+### Theme-Proof by Design
+Drop complex, multi-step forms into any WordPress theme and they just work. No `!important` overrides, no late-night CSS debugging, no specificity wars. The workflow package is exported with its own scoped presentation layer.
 
-1. Go to the [Releases page](../../releases/latest) of this repository.
+### Professional Client Intake, Not Just a Form
+Upgrade from messy email chains to a structured intake portal that lives inside your client's WordPress site. Guide clients step by step — upload your W-2 here, sign the engagement letter here — and have every submission land in a clean inbox inside `wp-admin`.
+
+### Built for Agency Work
+Field IDs are stable across updates. Minor edits (labels, colors, field options) can be done directly from the WordPress admin without re-exporting. Structural changes won't orphan existing submission data.
+
+---
+
+## What's in the Box
+
+This repository distributes the following products:
+
+- **XPressUI WordPress Bridge** (free core plugin) — shortcode renderer, isolated CSS scoping, `wp-admin` submission inbox
+- **XPressUI WordPress Bridge Pro** (paid) — Appearance & Design Tokens panel, primary colors, fonts, border radii, all controllable from `wp-admin`
+- **Document Intake for WordPress** (paid workflow pack) — production-ready multi-step client onboarding flow with file uploads, ready to install
+
+---
+
+## Install in 3 Steps
+
+### 1. Install the Bridge Plugin (Free)
+
+1. Go to the [Releases page](../../releases/latest).
 2. Download `xpressui-wordpress-bridge.zip`.
-3. In your WordPress admin, go to **Plugins > Add New > Upload Plugin**.
-4. Upload the `.zip` file and click **Activate**.
+3. In your WordPress admin, go to **Plugins > Add New > Upload Plugin**, upload the `.zip`, and activate.
+
+### 2. Upload Your Workflow Package
+
+1. Go to **XPressUI > Manage Workflows** in `wp-admin`.
+2. Upload the exported `.zip` package — it auto-extracts to `wp-content/uploads/xpressui/`.
+3. Copy the generated shortcode (e.g. `[xpressui id="document-intake"]`).
+4. Paste it into any page or post and publish.
+
+### 3. Test It
+
+Submit a test entry and confirm the result appears in **XPressUI > Submissions** in `wp-admin`. Uploaded files go directly to your WordPress Media Library.
 
 ---
 
-## 💎 2. Install the Pro Plugin (Design Tokens & Overrides)
+## Bundled Workflows (No Upload Required)
 
-The Pro version unlocks the **Appearance & Design Tokens** panel, allowing you to natively tweak primary colors, fonts, and border radii without writing any CSS.
+The plugins ship with built-in examples so you can see the decoupling in action immediately:
 
-1. Go to the Releases page and download `xpressui-wordpress-bridge-pro.zip`.
-2. Upload and activate it exactly like the core plugin.
-3. Go to **XPressUI > Settings** in your WordPress admin.
-4. Enter the **Lifetime Agency License Key** you received in your private message.
+- **`document-intake`** — multi-step client onboarding flow (bundled with the free core plugin)
+- **`validation-playground`** — comprehensive test of all Pro fields (bundled with the Pro plugin)
 
 ---
 
-## 🚀 3. Test the Bundled Workflows
+## Pro Plugin: Appearance & Design Tokens
 
-You don't even need to upload a workflow to start testing! The plugins come with built-in examples so you can see the decoupling in action immediately:
-
-- **`document-intake`**: A multi-step client onboarding flow (bundled with the Free core plugin).
-- **`validation-playground`**: A comprehensive test of all advanced Pro fields (bundled with the Pro plugin).
-
-To test them:
-1. Go to **XPressUI > Workflows** in your WordPress admin.
-2. Copy the generated shortcode for a bundled workflow (e.g., `[xpressui id="document-intake"]`) and paste it into any page or post.
-3. Check the page on the frontend: notice how it completely ignores your theme's global CSS resets.
-4. Go back to wp-admin, click the **Customize (PRO)** button on your workflow.
-5. Open the **Appearance & Design Tokens** tab, change the Primary Color and the Font Family, save, and refresh your frontend!
+1. Download `xpressui-wordpress-bridge-pro.zip` from the Releases page.
+2. Upload and activate it like the core plugin.
+3. Go to **XPressUI > Settings** and enter your license key.
+4. Open any workflow and click **Customize** to access the Appearance & Design Tokens panel.
 
 ---
 
-## 💬 Feedback & Bug Reports
+## Pricing
 
-As a beta tester, your brutal feedback is our most valuable asset. 
+### WordPress Pack — $129 one-time
+- Complete Document Intake multi-step workflow
+- XPressUI WordPress Bridge plugin
+- Unlimited usage on client sites
+- 1 year of updates and email support
 
-If you find a bug, a CSS bleed from a specific theme, or a confusing UI flow:
-- Open an Issue in this repository.
-- Or reply directly to the DM where you received your license key.
-
-Thank you for helping us make WordPress forms theme-proof!
+### Done For You — $599
+- Everything in the WordPress Pack
+- We install it on your WordPress site
+- We match primary colors to your brand
+- We test endpoints and verify email delivery
 
 ---
 
-## 🌐 Learn More & Contact
+## Support Boundary
 
-- **XPressUI Pro:** Discover all features, pricing, and get your own license on our [Commercial Page](https://xpressui.iakpress.com/).
-- **IAKPress Portal:** For custom agency integrations, advanced support, or general inquiries, visit [iakpress.com](https://iakpress.com/).
+Included with purchase:
+- Bridge installation and package placement guidance
+- Expected endpoint and upload behavior
+- `wp-admin` submission screen interpretation
+
+Not included:
+- Custom theme or builder integration work
+- Custom CPT mapping or webhook chains
+- Conflicts caused by third-party plugins outside the bridge contract
+
+---
+
+## Links
+
+- **Buy or learn more:** [iakpress.com/xpressui](https://iakpress.com/xpressui/)
+- **Agency integrations & custom work:** [iakpress.com](https://iakpress.com/)
+- **Bug reports:** Open an Issue in this repository
