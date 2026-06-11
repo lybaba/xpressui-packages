@@ -68,24 +68,8 @@ The plugins ship with built-in examples so you can see the decoupling in action 
 2. Upload and activate it like the core plugin.
 3. Go to **XPressUI > Settings** and enter your license key.
 4. Open any workflow and click **Customize** to access the Appearance & Design Tokens panel.
-
 ---
 
-## Pricing
-
-### WordPress Pack — $129 one-time
-- Complete Document Intake multi-step workflow
-- XPressUI WordPress Bridge Pro plugin (core bridge is free on WordPress.org)
-- Unlimited usage on client sites
-- 1 year of updates and email support
-
-### Done For You — $599
-- Everything in the WordPress Pack
-- We install it on your WordPress site
-- We match primary colors to your brand
-- We test endpoints and verify email delivery
-
----
 
 ## Support Boundary
 
