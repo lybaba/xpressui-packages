@@ -23,9 +23,10 @@ Field IDs are stable across updates. Minor edits (labels, colors, field options)
 
 This repository distributes the following products:
 
-- **XPressUI WordPress Bridge** (free core plugin) — shortcode renderer, isolated CSS scoping, `wp-admin` submission inbox
-- **XPressUI WordPress Bridge Pro** (paid) — Appearance & Design Tokens panel, primary colors, fonts, border radii, all controllable from `wp-admin`
-- **Document Intake for WordPress** (paid workflow pack) — production-ready multi-step client onboarding flow with file uploads, ready to install
+- **XPressUI WordPress Bridge Pro** (paid plugin) — Appearance & Design Tokens panel, primary colors, fonts, border radii, all controllable from `wp-admin`. Distributed via this repository's releases.
+- **Document Intake for WordPress** (paid workflow pack) — production-ready multi-step client onboarding flow with file uploads, ready to install.
+
+*Note: The core free plugin (**XPressUI Bridge**) is served directly from [WordPress.org](https://wordpress.org/plugins/xpressui-bridge/).*
 
 ---
 
@@ -33,9 +34,11 @@ This repository distributes the following products:
 
 ### 1. Install the Bridge Plugin (Free)
 
-1. Go to the [Releases page](../../releases/latest).
-2. Download `xpressui-wordpress-bridge.zip`.
-3. In your WordPress admin, go to **Plugins > Add New > Upload Plugin**, upload the `.zip`, and activate.
+Install **XPressUI Bridge** directly from the WordPress.org plugin directory:
+1. In your WordPress admin, go to **Plugins > Add New**.
+2. Search for **XPressUI Bridge**.
+3. Click **Install Now** and then **Activate**.
+*(Alternatively, download it manually from [WordPress.org](https://wordpress.org/plugins/xpressui-bridge/)).*
 
 ### 2. Upload Your Workflow Package
 
@@ -72,7 +75,7 @@ The plugins ship with built-in examples so you can see the decoupling in action 
 
 ### WordPress Pack — $129 one-time
 - Complete Document Intake multi-step workflow
-- XPressUI WordPress Bridge plugin
+- XPressUI WordPress Bridge Pro plugin (core bridge is free on WordPress.org)
 - Unlimited usage on client sites
 - 1 year of updates and email support
 
