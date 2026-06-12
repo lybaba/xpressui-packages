@@ -1,6 +1,10 @@
 # Appearance & Design Tokens — Test Presets
 
-This document gathers combinations of variables (Design Tokens) to test in the `Customize Workflow > Appearance` interface of XPressUI Pro.
+This document gathers combinations of variables (Design Tokens) to test in the `Customize Workflow > Appearance` interface of **XPressUI Pro**.
+
+> [!NOTE]
+> The Appearance panel and design token support require **XPressUI WordPress Bridge Pro** (available in this repository's releases), activated alongside the free **XPressUI Bridge** core plugin (available on [WordPress.org](https://wordpress.org/plugins/xpressui-bridge/)).
+
 These presets demonstrate the absolute flexibility of the form without writing a single line of CSS.
 
 ---
