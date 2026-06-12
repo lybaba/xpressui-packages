@@ -87,6 +87,6 @@ Not included:
 
 ## Links
 
-- **Buy or learn more:** [iakpress.com/xpressui](https://iakpress.com/xpressui/)
-- **Agency integrations & custom work:** [iakpress.com](https://iakpress.com/)
+- **Buy or learn more:** [intakeflow.dev/xpressui](https://intakeflow.dev/xpressui/)
+- **Agency integrations & custom work:** [intakeflow.dev](https://intakeflow.dev/)
 - **Bug reports:** Open an Issue in this repository
